@@ -6,7 +6,7 @@ class ExamChecking extends Thread {
     public ExamChecking(int iterations) {
         this.iterations = iterations;
     }
-
+//swiftserzhan
     @Override
     public void run() {
         for (int i = 1; i <= iterations; i++) {
